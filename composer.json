@@ -1,0 +1,20 @@
+{
+    "name": "devsdawn/think-aliyunsls",
+    "description": "Aliyun sls log driver for thinkphp 6",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DevsDawn",
+            "email": "git@devsdawn.com"
+        }
+    ],
+    "require": {
+        "topthink/framework": "^6.0",
+        "alibabacloud/aliyun-log-php-sdk": "^0.6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\log\\driver\\": "src"
+        }
+    }
+}
